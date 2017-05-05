@@ -31,6 +31,7 @@ WebApp.connectHandlers.use('/livechat', Meteor.bindEnvironment((req, res, next) 
 	const html = `<html>
 		<head>
 			<link rel="stylesheet" type="text/css" class="__meteor-css__" href="/livechat/livechat.css?_dc=${ Autoupdate.autoupdateVersion }">
+			<link rel="stylesheet" type="text/css" href="http://localhost/_assets/livechat.css">
 			<script type="text/javascript">
 				__meteor_runtime_config__ = ${ JSON.stringify(__meteor_runtime_config__) };
 			</script>
